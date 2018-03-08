@@ -6,4 +6,8 @@ react-native 项目iOS自动打包脚本
  
  这里需要注意的是填入访问keychain的密码，不然会导致签名失败
  
- 最后打包命令用的是fastlane。
+ 打包命令用的是fastlane。
+ 
+ 还有在脚本的开头 加入了 -ilex，这个是说明要交互的shell。
+ 在Jenkins中打包不加这个命令可能会失败
+ 
