@@ -13,3 +13,5 @@ react-native 项目iOS自动打包脚本
  
  如果往证书里加了新设备，要更新打包机上的证书。先把本地的Provisioning Profiles都删掉，然后打开xcode工程，它会自动重新生成新的Provisioning Profiles。这时候再通过脚本打包，就没问题了
  
+ # build_using_xctool
+ 这是完全由xcodebuild来编译IPA方式，不需要安装别的工具。
