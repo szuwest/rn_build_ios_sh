@@ -24,7 +24,7 @@ export_method='ad-hoc'
 #指定项目地址，如果是workspace，需要修改
 workspace_path="$project_path/${projectName}.xcodeproj"
 #指定输出路径
-output_path="/Users/xhkj/Desktop/${projectName}"
+output_path="$HOME/Desktop/${projectName}"
 #指定输出归档文件地址
 archive_path="$output_path/${projectName}_${now}.xcarchive"
 #指定输出ipa地址
